@@ -1,0 +1,35 @@
+@CHARSET "UTF-8";
+
+#statistika{}
+
+#table_stat{margin:0 auto;}
+#table_stat td{border: 1px solid black;}
+#table_stat .nadpis{text-align:center;font-weight:bold;}
+#table_stat .mezera{width:20px; border: 0px solid;}
+#table_stat .nazev{text-align:center;font-weight:900;}
+#table_stat .obdobi{text-align:center;}
+#table_stat .values{text-align:center;padding:0 10px 0 10px;}
+#table_stat .hodnota{padding:0 10px 0 10px;}
+
+
+#table_tepl{margin:0 auto;}
+#table_tepl td{border: 1px solid black;}
+#table_tepl .nadpis{text-align:center; font-weight:900;}
+#table_tepl .nazev{text-align:right; padding:0 5px 0 5px; font-weight:900;}
+#table_tepl .datum{text-align:center; width:90px; font-weight:900;}
+#table_tepl .hodnoty{text-align:center;}
+
+#rek_l{width:490px;position:relative;float:left;}
+#rek_l table{margin: 0 auto;}
+#rek_l .nazev{text-align:center;font-weight:bold;}
+#rek_l table td{padding:3px;}
+#rek_r{width:490px;position:relative;float:right;}
+#rek_r table{margin: 0 auto;}
+#rek_r .nazev{text-align:center;font-weight:bold;}
+#rek_r table td{padding:3px;}
+
+#rek{margin:0 auto;}
+#rek td{text-align:center;}
+#rek .rek{width:250px;text-align:center;font-weight:bold;}
+#rek .dat{width:150px;text-align:center;font-weight:bold;}
+#rek .hod{width:125px;text-align:center;font-weight:bold;}

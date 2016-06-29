@@ -9,7 +9,7 @@
 #include <dht11.h>
 #include <Wire.h>
 #include <BH1750.h>
- 
+vvv
 BH1750 lightMeter;
  
 

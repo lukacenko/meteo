@@ -1,0 +1,70 @@
+@CHARSET "UTF-8";
+body {margin:0; padding:0; font-family: 'Open Sans', sans-serif; color: #000; overflow-y: scroll; background: #f0f0f0; }
+/*----------------------------------------------------------------------*/
+/* POLE */
+#pole{
+	width:990px;
+	margin: 0 auto;
+	padding: 0px;
+	background:#cccccc;
+	-webkit-border-radius: 0 0 10px 10px;
+	-moz-border-radius: 0 0 10px 10px;
+	border-radius: 0 0 10px 10px;
+}
+#pole a{color:#000000; text-decoration:none;}
+#pole a:hover{text-decoration:underline;}
+#table_pole{padding:0px;margin:0px;width:990px;font-size:12px;}
+#table_pole td{width:330px;}
+#table_pole .lokalita{text-align: left;padding-left:15px;}
+#table_pole .aktualizace{text-align: center;}
+#table_pole .log{text-align: right;padding-right:15px;}
+/*----------------------------------------------------------------------*/
+/*ZÁHLAVÍ*/
+#zahlavi {	
+	margin:0px auto;
+	width:990px;
+	}
+#aktualniHodnoty {	
+	margin:0 auto;
+	padding:10px 0px 0px 0px;
+	background: #ffff00;
+	height: 185px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+	}
+#aktualniHodnotyNext {	
+	margin:0 auto;
+	padding:10px 0px 0px 0px;
+	background: #ffff00;
+	height: 155px;
+	-webkit-border-radius: 0 0 30px 30px;
+	-moz-border-radius: 0 0 30px 30px;
+	border-radius: 0 0 30px 30px;
+	}
+#table_hodnoty{vertical-align:bottom;float:left;}
+#table_hodnoty .hodnota{height: 100px;text-align: center; font-size: 21px;font-weight: bold;}
+#table_hodnoty .logo{vertical-align: bottom;text-align: center;width:100px;height: 100px;}
+#table_hodnoty .nazev{text-align: center;font-weight:bold;padding:3px; width: 186px;}
+/*----------------------------------------------------------------------*/
+/*PLOCHA PRO OBSAH*/
+#in{
+	width:990px;
+	margin: 0 auto;
+	padding: 0;
+	background: #c2febe; /* Old browsers */
+	background: -moz-linear-gradient(left,  #c2febe 0%, #ffffff 20%, #ffffff 80%, #c2febe 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#c2febe), color-stop(20%,#ffffff), color-stop(80%,#ffffff), color-stop(100%,#c2febe)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left,  #c2febe 0%,#ffffff 20%,#ffffff 80%,#c2febe 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left,  #c2febe 0%,#ffffff 20%,#ffffff 80%,#c2febe 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left,  #c2febe 0%,#ffffff 20%,#ffffff 80%,#c2febe 100%); /* IE10+ */
+	background: linear-gradient(to right,  #c2febe 0%,#ffffff 20%,#ffffff 80%,#c2febe 100%); /* W3C */
+	-webkit-box-shadow: 0px 30px 20px -15px rgba(170,170,170,1);
+	-moz-box-shadow: 0px 30px 20px -15px rgba(170,170,170,1);
+	box-shadow: 0px 30px 20px -15px rgba(170,170,170,1);
+}
+/*OBSAH*/
+#obsah{
+	padding: 5px;
+}
+#obsah h2{text-align:center;padding:10px;}
